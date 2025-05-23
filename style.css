@@ -1,6 +1,6 @@
-@import "./normalize.css";
-@import "./header.css";
-@import "./footer.css";
+@import "./styles/normalize.css";
+@import "./styles/header.css";
+@import "./styles/footer.css";
 
 :root {
   --color-light: #e7e7e7;
