@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechGear | Каталог</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      main {
+        min-height: 100vh;
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a href="/" class="header__logo logo">
+          <img
+            src="./icons/logo.svg"
+            alt="TechGear"
+            width="125"
+            height="125"
+            class="logo__image"
+          />
+        </a>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Главная</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/catalog.html" class="header__menu-link active"
+                >Каталог</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a href="/garanty.html" class="header__menu-link"
+                >Гарантия и поддержка</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a href="/contacts.html" class="header__menu-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="products">
+        <div class="products__inner container">
+          <h2 class="products__title">Каталог товаров</h2>
+          <ul class="products__list card">
+            <a href="#!" class="card__item">
+              <h3 class="card__title product__title">Телефоны</h3>
+              <div class="card__image product">
+                <img
+                  src="./images/poco-x3.png"
+                  alt="Poco X3"
+                  width="340"
+                  height="340"
+                  class="product__image"
+                />
+              </div>
+            </a>
+            <a href="#!" class="card__item">
+              <h3 class="card__title product__title">Ноутбуки</h3>
+              <div class="card__image product">
+                <img
+                  src="./images/mac.jpg"
+                  alt="Poco X3"
+                  width="340"
+                  height="340"
+                  class="product__image"
+                />
+              </div>
+              <div class="card__description">
+                <p>Камера 400МП, процессор турбо-пушка</p>
+              </div>
+            </a>
+            <a href="#!" class="card__item">
+              <h3 class="card__title product__title">Консоли</h3>
+              <div class="card__image product">
+                <img
+                  src="./images/ps.jfif"
+                  alt="Poco X3"
+                  width="340"
+                  height="340"
+                  class="product__image"
+                />
+              </div>
+              <div class="card__description">
+                <p>Современная игровая приставка, качество до 8К</p>
+              </div>
+            </a>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner container">
+        <a href="/" class="footer__logo logo">
+          <img
+            src="./icons/logo.svg"
+            alt="TechGear"
+            width="125"
+            height="125"
+            class="logo__image"
+          />
+        </a>
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a href="/" class="footer__menu-link">Главная</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="/catalog.html" class="footer__menu-link active"
+                >Каталог</a
+              >
+            </li>
+            <li class="footer__menu-item">
+              <a href="/garanty.html" class="footer__menu-link"
+                >Гарантия и поддержка</a
+              >
+            </li>
+            <li class="footer__menu-item">
+              <a href="/contacts.html" class="footer__menu-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

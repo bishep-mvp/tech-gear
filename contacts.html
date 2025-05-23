@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechGear | Контакты</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      main {
+        min-height: 100vh;
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a href="/" class="header__logo logo">
+          <img
+            src="./icons/logo.svg"
+            alt="TechGear"
+            width="125"
+            height="125"
+            class="logo__image"
+          />
+        </a>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Главная</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/catalog.html" class="header__menu-link">Каталог</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/garanty.html" class="header__menu-link"
+                >Гарантия и поддержка</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a href="/contacts.html" class="header__menu-link active"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="contacts">
+        <div class="contacts__inner container">
+          <h2 class="contacts__title">Наши контакты</h2>
+
+          <div class="contacts__description">
+            <p>ул. Большая Санкт-Петербургская 41</p>
+            <p>+78162789112</p>
+          </div>
+
+          <h3 class="contacts__title">Напишите нам, мы решим ваш вопрос!</h3>
+          <form class="contacts__form form">
+            <div class="form__left">
+              <div class="form__control">
+                <label for="name">
+                  Имя <span class="form__require">*</span>
+                </label>
+                <input type="text" id="name" placeholder="Иван" />
+              </div>
+              <div class="form__control">
+                <label for="email">
+                  Фамилия <span class="form__require">*</span>
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="ivanov@example.com"
+                />
+              </div>
+            </div>
+
+            <div class="form__right">
+              <div class="form__control">
+                <label for="message">
+                  Сообщение <span class="form__require">*</span>
+                </label>
+                <textarea id="message" placeholder="Есть идея..."></textarea>
+              </div>
+              <button class="form__button button">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner container">
+        <a href="/" class="footer__logo logo">
+          <img
+            src="./icons/logo.svg"
+            alt="TechGear"
+            width="125"
+            height="125"
+            class="logo__image"
+          />
+        </a>
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a href="/" class="footer__menu-link">Главная</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="/catalog.html" class="footer__menu-link">Каталог</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="/garanty.html" class="footer__menu-link"
+                >Гарантия и поддержка</a
+              >
+            </li>
+            <li class="footer__menu-item">
+              <a href="/contacts.html" class="footer__menu-link active"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
